@@ -4,7 +4,7 @@ require_once 'Bicycle.php';
 require_once 'Car.php';
 
 
-$bike = new Bicycle("blue", 14, 1, 2);
+$bike = new Bicycle("blue", 25, 1, 2);
 
 echo $bike->forward();
 echo '<br> Vitesse du vélo : ' . $bike->getCurrentSpeed() . ' km/h' . '<br>';
@@ -16,7 +16,7 @@ echo "<br>";
 echo "<br>";
 echo "<br>";
 
-$car = new Car("red", 5, "Dechets");
+$car = new Car("pink", 50, 1, 4);
 
 
 echo $car->forward();
